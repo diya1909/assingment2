@@ -1,0 +1,104 @@
+*{
+    
+    box-sizing: border-box;
+padding: 0px;
+}
+.logo img{
+    height: 40px;
+    }
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+     list-style: none;        /* remove bullets */
+    display: flex;           /* horizontal layout */
+    gap: 20px;
+
+}
+
+.nav ul li a{
+    color: #333;
+    font-size: large;
+  color: #adabab;
+    text-decoration: none;
+    font-weight: 500;
+   
+}
+.nav ul li a:hover{
+    color: black;
+}
+.user{
+  height: 20px;
+  width: 50px;
+  background-color: #b0d0ea;
+  color: #2196F3;
+  border-radius: 2rem;
+} 
+.button1 {
+  height: 20px;
+  background-color: #e3f6f9;
+  color:#2196F3;
+  padding: 30px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  /* border-radius: 20rem; */
+}
+.main{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* bold */
+    color: #3a4a5a;   /* dark gray similar to your image */
+}
+
+.highlight {
+    color: #2196F3;  /* blue color similar to Laundry Services! */
+    font-weight: 700;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; space between columns */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #3a4a5a;
+   line-height: 1.5;
+}
+
+.column {
+  flex: 1; /* both columns take equal width */
+}
+
+.highlight {
+  color: #2196F3; /* blue color for highlight */
+}
+.button2 {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20rem;
+}
+
+.para{
+  font-size: large;
+  color: #adabab;
+  line-height: 1.3;
+}
